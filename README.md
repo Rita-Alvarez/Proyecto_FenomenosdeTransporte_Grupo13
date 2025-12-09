@@ -76,3 +76,30 @@ Se realizaron dos simulaciones para dos meses distintos del año, específicamen
 
 
 ## Resultados
+
+A continuación, se presentan los resultados obtenidos por el código del modelo para las dos simulaciones distintas.
+
+<h3> Simulación Enero </h3>
+
+<h6> Perfil de temperatura </h6>
+<img width="630" height="470" alt="Perfil temperatura enero" src="https://github.com/user-attachments/assets/6bb489e1-4ccd-45a2-b24d-c26f80180405" />
+
+<h6> Evolución temporal de la temperatura </h6>
+<img width="630" height="470" alt="Evolución temporal temperatura enero" src="https://github.com/user-attachments/assets/8d910d57-0be3-49ab-9533-4f4a6b0f9c38" />
+
+Temperatura máxima: 57.02°C
+Temperatura mínima: 12.09°C
+
+<h3> Simulación Julio </h3>
+
+<h6> Perfil de temperatura </h6>
+<img width="630" height="470" alt="Perfil temperatura julio" src="https://github.com/user-attachments/assets/d3edd9ae-6567-4ed2-bebc-387c30700395" />
+
+<h6> Evolución temporal de la temperatura </h6>
+<img width="630" height="470" alt="Evolución temporal temperatura julio" src="https://github.com/user-attachments/assets/aa788b93-c04d-41eb-b6a9-0ed43bf935b8" />
+
+Temperatura máxima: 53.52°C
+Temperatura mínima: 10.00°C
+
+
+
