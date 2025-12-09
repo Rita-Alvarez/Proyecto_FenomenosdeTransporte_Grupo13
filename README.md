@@ -6,8 +6,10 @@
 <h6 align="center"> Rita Álvarez, Gonzalo Marín, Benjamín Ponce, Josefa Prieto </h6>
 
 ## Índice
-* [Descripción del proyecto](#Descripción-del-proyecto) 
+* [Descripción del proyecto](#Descripción-del-proyecto)
 * [Método numérico](#Método-numérico)
 * [Código](#Código)
 * [Resultados](#Resultados)
+
+## Descripción del proyecto
 
