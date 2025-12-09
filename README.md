@@ -22,8 +22,24 @@ El proyecto se centra en la modelación y simulación numérica de la transferen
 
 <h3> Modelo </h3>
 
-El modelo integra los tres mecanismos de transferencia: conducción interna, convección y radiación.
+Para realizar el modelamiento, se realizó un esquema de un panel solar fotovoltaico. Se consideró que este está constituído por cinco capas: vidrio, EVA superior, celdas fotovoltáicas, EVA inferior y tedlar. A continuación, se presenta un diseño representativo del mismo panel.
 
+![Esquema panel fotovoltaico](https://github.com/user-attachments/assets/27c83a5e-6254-42db-b432-4723cb4942d0)
+
+
+El modelo integra los tres mecanismos de transferencia: conducción interna, convección y radiación. A continuación, se presenta un esquema detallado de la transferencia de calor dentro de las distintas capas del panel solar fotovoltaico.
+
+![Esquema transferencia de calor](https://github.com/user-attachments/assets/2588691b-3513-489b-b5dd-df2b737f50b7)
+
+Los supuestos realizados para el modelo fueron:
+
+1. Flujo unidireccional (eje x).
+2. Material sólido (se eliminan términos de velocidad).
+3. Propiedades termofísicas constantes k, ρ, $C_p$.
+4. Largo y ancho son mucho más grandes que el espesor.
+5. La temperatura del aire es menor a la temperatura del panel, por lo que la convección va en dirección hacia el aire.
+6. La capa del vidrio da hacia el cielo y el tedlar hacia el suelo.
+7. El efecto de la radiación angular es despreciable respecto a la global.
 
 ## Método numérico
 
