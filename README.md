@@ -13,3 +13,9 @@
 
 ## Descripción del proyecto
 
+## Método numérico
+
+<div style="text-align: justify;">
+  El método numérico utilizado para la modelación de transferencia de calor fue el método de discretización de Crank-Nicolson de segundo orden en las dimensiones espacial y temporal. Las ventajas de la utilización de este método es que ofrece una aproximación de alta precisión, además de que tiene una estabilidad incondicional que permite elegir pasos de tiempo relativamente grandes sin que la solución numérica se inestabilice, siendo de esta manera ideal para nuestro tipo de proyecto, dado que se eligió como paso de tiempo un día completo.
+  
+</div>
