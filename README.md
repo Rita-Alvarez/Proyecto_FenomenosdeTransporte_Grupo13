@@ -15,10 +15,17 @@
 
 <h3> Contexto </h3>
 
+Chile cuenta con una geografía excepcionalmente favorable para la generación de energías renovables, donde destaca el Desierto de Atacama por ser conocido mundialmente como el punto que recibe mayor cantidad de radiación, teniendo una radiación anual que supera los 2500 $kW/m^2$, convirtiéndose en un lugar óptimo y estratégico para la instalación de centrales energéticas de paneles solares. Actualmente, Atacama constituye más del 90% de la capacidad fotovoltaica de todo Chile, lo que favorece a la transición de energías más limpias.
+
+Sin embargo, estas mismas condiciones extremas a su vez generan un problema: el sobrecalentamiento de las celdas fotovoltaicas provocan una disminución en la eficiencia de los mismo paneles, de modo que se termina generando menos energía que la capacidad máxima permitida. Se estima que un aumento de 1°C por sobre los 25°C en el material puede costar un 0.4% del rendimiento del panel, lo que implica una pérdida significativa de energía, puesto que no se está generando lo mismo que la capacidad máxima instalada de cada panel solar.
 
 <h3> Proyecto </h3>
 
 El proyecto se centra en la modelación y simulación numérica de la transferencia de calor a través de un panel solar fotovoltaico ubicado en el Desierto de Atacama. El objetivo principal es estudiar la evolución del perfil de temperatura a través de las distintas capas del panel para analizar cómo el sobrecalentamiento de las celdas fotovoltaicas afectan en la eficiencia energética. Esto permitirá que en futuro se puedan proponer mejoras en los diseños y materiales de los paneles.
+
+<h3> Importancia </h3>
+
+La importancia del proyecto radica en su contribución a la eficiencia y sustentabilidad de la industria energética chilena. Al determinar con precisión el perfil de temperatura de los paneles solares es posible determinar una optimización de diseño y materiales, siendo beneficiados directamente las empresas energéticas ya que implementar esto conlleva un mayor retorno de la inversión. Además, es un apoyo directo para los objetivos de transición energética a fuentes renovables y la descarbonización del país.
 
 <h3> Modelo </h3>
 
