@@ -13,6 +13,10 @@
 
 ## Descripción del proyecto
 
+Es por esto que el proyecto se centra en la modelación y simulación numérica de la transferencia de calor a través de un panel solar fotovoltaico ubicado en el Desierto de Atacama. El objetivo principal es estudiar la evolución del perfil de temperatura a través de las distintas capas del panel para analizar cómo el sobrecalentamiento de las celdas fotovoltaicas afectan en la eficiencia energética. Esto permitirá que en futuro se puedan proponer mejoras en los diseños y materiales de los paneles.
+
+
+El modelo integra los tres mecanismos de transferencia: conducción interna, convección y radiación.
 ## Método numérico
 
 El método numérico utilizado para la modelación de transferencia de calor fue el método de discretización de Crank-Nicolson de segundo orden en las dimensiones espacial y temporal. Las ventajas de la utilización de este método es que ofrece una aproximación de alta precisión, además de que tiene una estabilidad incondicional que permite elegir pasos de tiempo relativamente grandes sin que la solución numérica se inestabilice, siendo de esta manera ideal para nuestro tipo de proyecto, dado que se eligió como paso de tiempo un día completo.
@@ -23,7 +27,7 @@ En primer lugar, se define una malla uniforme tanto para ambas dimensiones. Para
 
 El lenguaje utilizado para la elaboración de los códigos fue Python versión 3.11.4. Para los cálculos númericos y la generación de gráficos se emplearon las bibliotecas Numpy y Matplotlib respectivamente.
 
-Se realizaron dos simulaciones para dos meses distintos del año, específicamente enero y julio, esto debido a que estos son los meses que presentan las temperaturas ambientales promedio más altas y bajas respectivamente, lo que permite analizar el comportamiento del modelo para distintas condiciones externas extremas. Cada simulación presenta la misma estructura, sin embargo, los únicos valores que cambian son las temperaturas ambientes por hora, irradiancia por hora y la velocidad del aire por hora. Al final de cada script es posible generar dos gráficos distintos, el primero correspondiene al perfil de temperatura en °C del panel a las 8, 12 y 16 horas; el segundo correspondiente a la evolución temporal en horas de las capas superficie frontal, centro del panel y la superficie posterior.
+Se realizaron dos simulaciones para dos meses distintos del año, específicamente enero y julio, esto debido a que estos son los meses que presentan las temperaturas ambientales promedio más altas y bajas respectivamente, lo que permite analizar el comportamiento del modelo para distintas condiciones externas extremas. Cada simulación presenta la misma estructura, sin embargo, los únicos valores que cambian son las temperaturas ambientes por hora, irradiancia por hora y la velocidad del aire por hora. Al final de cada script es posible generar dos gráficos distintos, el primero correspondiene al perfil de temperatura en °C del panel a las 8, 12 y 16 horas; el segundo correspondiente a la evolución temporal en horas de las capas superficie frontal, centro del panel y la superficie posterior. También, al final del código se entregan los valores de temperatura mínima y temperatura máxima que alcanza el panel en °C.
 
 Los archivos se organizaron en dos carpetas distintas:
 
