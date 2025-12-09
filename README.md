@@ -1,3 +1,1 @@
-# Perfil de temperatura de un panel fotovoltaico
-Perfil de temperatura de un panel fotovoltaico
-## aaaa ##
+<em> # Perfil de Temperaturas en Paneles Solares Fotovoltaicos <\em>
