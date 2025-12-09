@@ -11,19 +11,21 @@
 * [Código](#Código)
 * [Resultados](#Resultados)
 
-## Descripción del proyecto
+<h2>  Descripción del proyecto </h2>
+
+
 
 Es por esto que el proyecto se centra en la modelación y simulación numérica de la transferencia de calor a través de un panel solar fotovoltaico ubicado en el Desierto de Atacama. El objetivo principal es estudiar la evolución del perfil de temperatura a través de las distintas capas del panel para analizar cómo el sobrecalentamiento de las celdas fotovoltaicas afectan en la eficiencia energética. Esto permitirá que en futuro se puedan proponer mejoras en los diseños y materiales de los paneles.
 
 
 El modelo integra los tres mecanismos de transferencia: conducción interna, convección y radiación.
-## Método numérico
+<h2> Método numérico </h2>
 
 El método numérico utilizado para la modelación de transferencia de calor fue el método de discretización de Crank-Nicolson de segundo orden en las dimensiones espacial y temporal. Las ventajas de la utilización de este método es que ofrece una aproximación de alta precisión, además de que tiene una estabilidad incondicional que permite elegir pasos de tiempo relativamente grandes sin que la solución numérica se inestabilice, siendo de esta manera ideal para nuestro tipo de proyecto, dado que se eligió como paso de tiempo un día completo.
 
 En primer lugar, se define una malla uniforme tanto para ambas dimensiones. Para el caso temporal se divide el tiempo total $D$ en $N_j$ nodos, mientras que para el caso espacial se divide el espesor total $L$ en $N_i$ nodos. Posteriormente, para la discretización del modelo, se emplean términos de temperatura evaluados en una posición $x_i$ en un tiempo $t_j$. Se discretiza la ecuación gobernante y se reordenan los términos correspondientes, para finalmente representarla de manera matricial. Finalmente, se discretizan las condiciones iniciales junto con las condiciones de borde utilizando las mismas notaciones.
 
-## Código
+<h2> Código </h2>
 
 El lenguaje utilizado para la elaboración de los códigos fue Python versión 3.11.4. Para los cálculos númericos y la generación de gráficos se emplearon las bibliotecas Numpy y Matplotlib respectivamente.
 
@@ -37,4 +39,4 @@ Los archivos se organizaron en dos carpetas distintas:
 
 Además, en la carpeta "Anexos" se encuentra un archivo llamado "Base de datos Grupo 13.xlsx". Este archivo almacena todos los datos iniciales, parámetros y condiciones de contorno de un período de un año completo, donde se extrajeron los datos para las simulaciones de enero y julio. También, en esta misma carpeta se encuentran el esquema de la composición del panel fotovoltaico junto con el esquema de la transferencia de calor dentro del mismo para un mayor entendimiento de lo que ocurre dentro de este en las distintas capas, además del sistema de referencia utilizado. Ambos códigos se pueden correr de manera independiente y no necesitan ningún paso previo.
 
-## Resultados
+<h2> Resultados </h2>
