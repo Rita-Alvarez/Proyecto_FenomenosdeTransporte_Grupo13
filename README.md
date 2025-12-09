@@ -15,7 +15,9 @@
 
 <h3> Contexto </h3>
 
+<p style="text-align: justify;">
 Chile cuenta con una geografía excepcionalmente favorable para la generación de energías renovables, donde destaca el Desierto de Atacama por ser conocido mundialmente como el punto que recibe mayor cantidad de radiación, teniendo una radiación anual que supera los 2500 $kW/m^2$, convirtiéndose en un lugar óptimo y estratégico para la instalación de centrales energéticas de paneles solares. Actualmente, Atacama constituye más del 90% de la capacidad fotovoltaica de todo Chile, lo que favorece a la transición de energías más limpias.
+</p>
 
 Sin embargo, estas mismas condiciones extremas a su vez generan un problema: el sobrecalentamiento de las celdas fotovoltaicas provocan una disminución en la eficiencia de los mismo paneles, de modo que se termina generando menos energía que la capacidad máxima permitida. Se estima que un aumento de 1°C por sobre los 25°C en el material puede costar un 0.4% del rendimiento del panel, lo que implica una pérdida significativa de energía, puesto que no se está generando lo mismo que la capacidad máxima instalada de cada panel solar.
 
