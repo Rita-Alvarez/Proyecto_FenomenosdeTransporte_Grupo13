@@ -30,3 +30,5 @@ Se realizaron dos simulaciones para dos meses distintos del año, específicamen
 "Simulación Julio": Incluye el script correspondiente para las condiciones de julio junto con un anexo de los gráficos obtenido.
 
 Además, en la carpeta "Anexos" se encuentra un archivo llamado "Base de datos Grupo 13.xlsx". Este archivo almacena todos los datos iniciales, parámetros y condiciones de contorno de un período de un año completo, donde se extrajeron los datos para las simulaciones de enero y julio. También, en esta misma carpeta se encuentran el esquema de la composición del panel fotovoltaico junto con el esquema de la transferencia de calor dentro del mismo para un mayor entendimiento de lo que ocurre dentro de este en las distintas capas, además del sistema de referencia utilizado. Ambos códigos se pueden correr de manera independiente y no necesitan ningún paso previo.
+
+##Resultados
