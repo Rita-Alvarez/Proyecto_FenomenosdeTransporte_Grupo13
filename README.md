@@ -23,11 +23,13 @@ En primer lugar, se define una malla uniforme tanto para ambas dimensiones. Para
 
 El lenguaje utilizado para la elaboración de los códigos fue Python versión 3.11.4. Para los cálculos númericos y la generación de gráficos se emplearon las bibliotecas Numpy y Matplotlib respectivamente.
 
-Se realizaron dos simulaciones para dos meses distintos del año, específicamente enero y julio, esto debido a que estos son los meses que presentan las temperaturas ambientales promedio más altas y bajas respectivamente, lo que permite analizar el comportamiento del modelo para distintas condiciones externas extremas. Los archivos se organizaron en dos carpetas distintas:
+Se realizaron dos simulaciones para dos meses distintos del año, específicamente enero y julio, esto debido a que estos son los meses que presentan las temperaturas ambientales promedio más altas y bajas respectivamente, lo que permite analizar el comportamiento del modelo para distintas condiciones externas extremas. Cada simulación presenta la misma estructura, sin embargo, los únicos valores que cambian son las temperaturas ambientes por hora, irradiancia por hora y la velocidad del aire por hora. Al final de cada script es posible generar dos gráficos distintos, el primero correspondiene al perfil de temperatura en °C del panel a las 8, 12 y 16 horas, el segundo correspondiente a la evolución temporal en horas de las capas superficie frontal, centro del panel y la superficie posterior.
 
-"Simulación Enero": Contiene el script correspondiente para las condiciones de enero, además de un anexo de los gráficos resultantes.
+Los archivos se organizaron en dos carpetas distintas:
 
-"Simulación Julio": Incluye el script correspondiente para las condiciones de julio junto con un anexo de los gráficos obtenido.
+"Simulación Enero": Contiene el script correspondiente para las condiciones de enero, además de un anexo de los gráficos resultantes llamados "Evolución temporal temperatura enero.png" y "Perfil temperatura enero.png"
+
+"Simulación Julio": Incluye el script correspondiente para las condiciones de julio junto con un anexo de los gráficos obtenido llamados "Evolución temporal temperatura julio.png" y "Perfil temperatura julio.png"
 
 Además, en la carpeta "Anexos" se encuentra un archivo llamado "Base de datos Grupo 13.xlsx". Este archivo almacena todos los datos iniciales, parámetros y condiciones de contorno de un período de un año completo, donde se extrajeron los datos para las simulaciones de enero y julio. También, en esta misma carpeta se encuentran el esquema de la composición del panel fotovoltaico junto con el esquema de la transferencia de calor dentro del mismo para un mayor entendimiento de lo que ocurre dentro de este en las distintas capas, además del sistema de referencia utilizado. Ambos códigos se pueden correr de manera independiente y no necesitan ningún paso previo.
 
