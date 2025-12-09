@@ -3,12 +3,7 @@
 <h1 align="center"> Perfil de Temperaturas en Paneles Solares Fotovoltaicos </h1>
 
 ## Índice
-*[Descripción del proyecto]
-*[Estado del proyecto]
-*[Características de la aplicación y demostración]
-*[Acceso al proyecto]
-*[Tecnologías utilizadas]
-*[Personas Contribuyentes]
-*[Personas-Desarrolladores del Proyecto]
-*[Licencia]
-*[Conclusión]
+* [Descripción del proyecto](#Descripción-del-proyecto) 
+* [Método numérico](#Método-numérico)
+* [Código](#Código)
+* [Resultados](#Resultados)
