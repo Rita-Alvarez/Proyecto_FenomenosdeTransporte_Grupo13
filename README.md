@@ -2,8 +2,12 @@
 
 <h1 align="center"> Perfil de Temperaturas en Paneles Solares Fotovoltaicos </h1>
 
+<h6 align="center"> Grupo 13 </h6>
+<h6 align="center"> Rita Álvarez, Gonzalo Marín, Benjamín Ponce, Josefa Prieto </h6>
+
 ## Índice
 * [Descripción del proyecto](#Descripción-del-proyecto) 
 * [Método numérico](#Método-numérico)
 * [Código](#Código)
 * [Resultados](#Resultados)
+
