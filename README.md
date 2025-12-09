@@ -54,6 +54,8 @@ El método numérico utilizado para la modelación de transferencia de calor fue
 
 En primer lugar, se define una malla uniforme tanto para ambas dimensiones. Para el caso temporal se divide el tiempo total $D$ en $N_j$ nodos, mientras que para el caso espacial se divide el espesor total $L$ en $N_i$ nodos. Posteriormente, para la discretización del modelo, se emplean términos de temperatura evaluados en una posición $x_i$ en un tiempo $t_j$. Se discretiza la ecuación gobernante y se reordenan los términos correspondientes, para finalmente representarla de manera matricial. Finalmente, se discretizan las condiciones iniciales junto con las condiciones de borde utilizando las mismas notaciones.
 
+Por último, en la implementación del código, se realiza una matriz que posea la ecuación gobernante en cada punto de tal manera que tenga estructura tridiagonal propia del método. Esta estructura permite que el sistema se pueda resolver utilizando comandos pertenecientes a la librería Numpy de Python y se incorporan las condiciones discretizadas en las posiciones nodales donde se sitúan las interfaces entre las capas del panel dentro de la longitud L.
+
 ## Código 
 
 <h3> Tecnologías utilizadas </h3>
